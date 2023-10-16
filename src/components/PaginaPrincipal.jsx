@@ -4,7 +4,9 @@ import { JugadasImportantes } from './JugadasImportantes';
 export const PaginaPrincipal = () => {
   return (
     <div>
+       {/*Parte titulo */}
     <h1 className="m-0 text-9xl pt-14 text-cyan-600">LOP</h1>
+     {/*Parte header */}
     <header className='m-0 pt-14'>
       <nav>
         <ul className="inline-flex pl-8">
@@ -29,6 +31,9 @@ export const PaginaPrincipal = () => {
     <section className='mr-24'>
       <JugadasImportantes/>
     </section>
+
+    {/*Parte footer */}
+    <footer className='pt-5'>Web hecha por Ramón Moncholí Ros</footer>
   </div>
   );
 };
