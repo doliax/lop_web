@@ -1,5 +1,6 @@
 import React from 'react';
 import { JugadasImportantes } from './JugadasImportantes';
+import { Descripcion } from './Descripcion';
 
 export const PaginaPrincipal = () => {
   return (
@@ -17,14 +18,7 @@ export const PaginaPrincipal = () => {
     </header>
     {/* Section Description */}
     <section className='mt-10 bg-slate-300 m-0 md:w-50 text-center'>
-      <h2 className='font-bold text-4xl'>¿Qué es LOP?</h2>
-      <p className='pb-5 pt-2'>Lol Old Plays (LOP) que recopila jugadas antiguas de LoL desde S4 hacia atrás.</p>
-      <h2 className='font-bold text-4xl'>¿Qué tipo de jugadas admite?</h2>
-      <p className='pb-5 pt-2'>Tanto de profesionales como de randoms</p>
-      <h2 className='font-bold text-4xl'>¿Se puede votar?</h2>
-      <p className='pb-5 pt-2'>Si, incluye un sistema de votación</p>
-      <h2 className='font-bold text-4xl'>¿Te ha gustado la jugada?</h2>
-      <p className='pb-5 pt-2'>No dudes en darle like al canal del video en cuestión ;)</p>
+      <Descripcion/>
     </section>
 
       {/* Section Jugadas Importantes */}
