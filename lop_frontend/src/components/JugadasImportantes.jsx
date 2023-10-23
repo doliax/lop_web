@@ -22,7 +22,7 @@ export const JugadasImportantes = () => {
         {/*Recorro el array de objetos  */}
         {jugadas.map((x) => (
         <div key={x.id} className='pl-14'>
-         <iframe className='h-96 w-96' src={x.src} title={x.titulo} frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+         <iframe className='h-96 w-96' src={x.src} title={x.titulo} frameBorder="0" allowFullScreen="allowfullscreen"></iframe>
           <h3 className='font-thin text-xl mt-3'>{x.titulo}</h3>
         </div>
       ))}

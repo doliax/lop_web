@@ -1,6 +1,7 @@
 import React from 'react';
 import { JugadasImportantes } from './JugadasImportantes';
 import { Descripcion } from './Descripcion';
+import JugadasList from './Jugadas';
 
 export const PaginaPrincipal = () => {
   return (
@@ -25,6 +26,8 @@ export const PaginaPrincipal = () => {
     <section className='mr-24'>
       <JugadasImportantes/>
     </section>
+
+  
 
     {/*Parte footer */}
     <footer className='pt-5'>Web hecha por Ramón Moncholí Ros</footer>
