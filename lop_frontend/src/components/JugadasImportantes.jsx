@@ -5,7 +5,7 @@ import axios from 'axios';
 export const JugadasImportantes = () => {
 
 
-  const baseURL = "http://localhost:3000/jugadas";
+  const baseURL = "http://localhost:4000/jugadas";
 
   const [post, setPost] = React.useState(null);
 //Hay que poner los datos en el setPost mediante el useEffect!!!!!!!!
