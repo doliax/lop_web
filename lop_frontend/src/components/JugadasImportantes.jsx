@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useQuery } from 'react-query';
+
 import axios from 'axios';
 
 export const JugadasImportantes = () => {
@@ -53,6 +53,7 @@ export const JugadasImportantes = () => {
 
 return (
   <div className='m-0 inline-flex pt-20'>
+    {/*Si hay posts mapealos si no mete un div */}
     {post ? (
       post.map((x) => (
         <div key={x._id} className='pl-14'>
